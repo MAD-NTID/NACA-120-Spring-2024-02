@@ -4,7 +4,7 @@ current_loop = 1
 
 while current_loop <= times_to_loop:
     print(f"Currently at {current_loop}")
-    # current_loop += 1 # increment by one, otherwise you'll never break out
+    current_loop += 1 # increment by one, otherwise you'll never break out
     # you'll be in a loop prison forever...
 
 print("Done looping")
