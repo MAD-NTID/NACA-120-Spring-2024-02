@@ -71,7 +71,7 @@ def list_a_pet(patient_number):
 # Option 5
 def list_all_data():
     if len(pet_records) > 0:
-        for key, value in pet_records:
+        for key, value in pet_records.items():
             print(f"Key: {key}, Value: {value}")
     else:
         print("No Pet Records to Show")
